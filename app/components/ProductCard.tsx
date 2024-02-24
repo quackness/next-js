@@ -1,9 +1,11 @@
-'use client'
+
+
+import AddToCart from "./AddToCart"
 
 function ProductCard() {
   return (
     <div>
-      <button onClick={()=> console.log('Click')}>Add to card</button>
+  <AddToCart />
     </div>
   )
 }
