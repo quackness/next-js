@@ -1,10 +1,11 @@
+import AddToCart from "./AddToCart";
+import styles from './ProductCard.module.css';
 
 
-import AddToCart from "./AddToCart"
 
 function ProductCard() {
   return (
-    <div>
+    <div className={styles.card}>
   <AddToCart />
     </div>
   )
